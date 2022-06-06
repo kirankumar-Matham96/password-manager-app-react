@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bg-container {
+  min-height: 100vh;
+  background-color: #9ba9eb;
+  padding: 16px;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .bg-container {
+    padding: 50px 10%;
+  }
+}
+.logo {
+  width: 150px;
+  margin-bottom: 16px;
+  align-self: flex-start;
+}
+@media (min-width: 768px) {
+  .logo {
+    width: 200px;
+    margin: 0 0 26px 10%;
+  }
+}
+
+.add-password-container {
+  background-color: #5763a5;
+  padding: 16px;
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .add-password-container {
+    width: 80%;
+    padding: 60px 45px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.password-manager-img-small {
+  width: 100%;
+}
+.password-manager-img-big {
+  display: none;
+  width: 45%;
+}
+@media (min-width: 768px) {
+  .password-manager-img-small {
+    display: none;
+  }
+  .password-manager-img-big {
+    display: block;
+  }
+}
+
+.form-container {
+  background-color: #454f84;
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media (min-width: 768px) {
+  .form-container {
+    padding: 16px;
+    width: 55%;
+    align-self: stretch;
+  }
+}
+
+.form-description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin: 16px 0 10px;
+}
+@media (min-width: 768px) {
+  .form-description {
+    font-size: 24px;
+  }
+}
+
+.input-item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .input-item-container {
+    height: 60px;
+    align-items: stretch;
+  }
+}
+
+.icon-container {
+  border-right: 1px solid #c3caea;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px 0 0 5px;
+}
+@media (min-width: 768px) {
+  .icon-container {
+    height: auto;
+    width: 60px;
+  }
+}
+
+.input-icon {
+  width: 16px;
+  height: 16px;
+}
+@media (min-width: 768px) {
+  .input-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 0 5px 5px 0;
+  padding: 5px;
+  flex-grow: 1;
+}
+@media (min-width: 768px) {
+  .input-field {
+    height: auto;
+  }
+}
+
+.add-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0b69ff;
+  padding: 8px 26px;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .add-button {
+    padding: 8px 35px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,156 @@
+.saved-passwords-container {
+  margin-top: 16px;
+  border-radius: 10px;
+  background-color: #5763a5;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .saved-passwords-container {
+    padding: 50px;
+    width: 80%;
+  }
+}
+
+.your-passwords-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.your-passwords-text-container {
+  display: flex;
+  align-items: center;
+}
+
+.your-passwords-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+@media (min-width: 768px) {
+  .your-passwords-text {
+    font-size: 24px;
+  }
+}
+
+.count {
+  margin-left: 5px;
+  color: #fff;
+  padding: 0px 8px;
+  border: 1px solid #b6c3ca;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media (min-width: 768px) {
+  .count {
+    margin-left: 10px;
+    padding: 0px 10px;
+  }
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon-container {
+  height: 30px;
+  width: 40px;
+  border-right: 1px solid #64748b;
+  border-radius: 5px 0 0 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .search-icon-container {
+    width: 55px;
+  }
+}
+
+.search-icon {
+  width: 20px;
+}
+
+.search-input {
+  width: 120px;
+  height: 30px;
+  border: none;
+  outline: none;
+  padding: 0 10px 0 16px;
+  border-radius: 0 5px 5px 0;
+}
+@media (min-width: 768px) {
+  .search-input {
+    width: auto;
+  }
+}
+
+.h-line {
+  background-color: #7683cb;
+  border: none;
+  height: 1px;
+  margin: 10px 0;
+}
+@media (min-width: 768px) {
+  .h-line {
+    margin: 30px 0;
+  }
+}
+
+.show-passwords-container {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+@media (min-width: 768px) {
+}
+
+.checkbox {
+  height: 16px;
+  width: 16px;
+}
+@media (min-width: 768px) {
+}
+
+.show-passwords-text {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+}
+.no-passwords-container {
+  width: 50%;
+  align-self: center;
+}
+.no-passwords-img {
+  width: 100%;
+}
+
+.no-passwords-text {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.password-items-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+@media (min-width: 768px) {
+  .password-items-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
